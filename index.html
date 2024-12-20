@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tree Helper Demo</title>
+  <style>
+    #app > div {
+      margin: 8px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <div>树形数据 tree-shaped data</div>
+    <div>
+      <textarea id="raw" rows="30" style="width: 100%"></textarea>
+    </div>
+    <div><button id="btn-walk">遍历树 walk</button></div>
+    <div id="walk">
+    </div>
+    <div><button id="btn-flatten">拍平数组 flatten</button> </div>
+    <div>
+      <textarea id="flat" rows="30" style="width: 100%"></textarea>
+    </div>
+    <div><button id="btn-tree">转换树形数据属性 transform node properties</button> </div>
+    <div>
+      <textarea id="tree" rows="30" style="width: 100%"></textarea>
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

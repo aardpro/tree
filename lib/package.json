@@ -1,0 +1,21 @@
+{
+  "name": "aardpro-tree",
+  "version": "1.1.0",
+  "description": "把包含父指针属性的平坦数组与嵌套结构的树形数组进行互相转化的函数库。 A function library that converts a flat array with parent pointer attributes into a nested array and vice versa.",
+  "module": "./index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs",
+      "types": "./index.d.ts"
+    }
+  },
+  "author": "aardpro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aardpro/tree/issues"
+  },
+  "homepage": "https://github.com/aardpro/tree#readme",
+  "type": "module",
+  "private": false
+}
